@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game-List</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body class="body-container">
+    <header>
+        <input type="checkbox" name="night-mode" id="night-mode-button">
+        <label for="night-mode-button">
+            <div class="slider-button-case">
+                <div class="slider-button-ball"></div>
+            </div>
+        </label>
+    </header>
+    <main>
+        <section class="game-container">
+            <ul class="game-list">
+                <li class="game-item">
+                    <button type="button" value="hogwarts-legacy" class="game-list-button">Hogwarts Legacy</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="watch-dogs" class="game-list-button">Watch Dogs</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="watch-dogs-2" class="game-list-button">Watch Dogs 2</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="dead-cells" class="game-list-button">Dead Cells</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="ghostwire-tokyo" class="game-list-button">Ghostwire Tokyo</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="red-dead-redemption-2" class="game-list-button">Red Dead Redemption 2</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="need-for-speed-unbound" class="game-list-button">Need for Speed Unbound</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="alan-wake-2" class="game-list-button">Alan Wake II</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="dead-island-2" class="game-list-button">Dead Island 2</button>
+                </li>
+                <li class="game-item">
+                    <button type="button" value="rage-2" class="game-list-button">Rage 2</button>
+                </li>
+            </ul>
+        </section>
+        <section class="game-info-container">
+            <div class="image-container">
+                <img src="" alt="game-image" id="game-image">
+            </div>
+            <div class="sinopse-container">
+                <h2 class="game-name"></h2>
+                <p class="sinopse-text"></p>
+            </div>
+        </section>
+    </main>
+
+
+    <script type="module" src="./src/js/index.js"></script>
+</body>
+</html>
